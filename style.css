@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+margin: 0;
+padding: 0;
+font-family: 'Open Sans';
+}
+body{
+  background-color: rgb(20, 10, 10);
+  display: flex;
+  justify-content: center;
+}
+h1{
+  margin-bottom: 49px;
+  margin-top: 9px;
+}
+
+h1:hover{
+  color: antiquewhite;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+input[type=number]{
+  margin-bottom: 59px;
+  border-radius: 5px;
+  height: 35px;
+  width: 200px;
+  margin-left: 20px;
+}
+
+input[type=number]::placeholder{
+  text-align: center;
+  padding: 7px;
+  font-size: 13px;
+  color: red;
+}
+
+
+input[type=number]:active,input[type=number]:hover,input[type=number]:after,input[type=number]:focus{
+  border-color: blue;
+  color: red;
+}
+
+.container{
+  text-align: center;
+  margin-top: 190px;
+  border: solid;
+  border-color: red;
+  color: red;
+  height: 300px;
+  border-radius: 10px;
+  width: 600px;
+}
+
+button{
+margin-left: 10px;
+font-family: 'Open Sans';
+padding: 8px 30px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+font-size: 14px;
+font-weight: bold;
+color: red;
+}
+
+
+button:hover{
+background: red;
+color: white;
+transition: 0.7s;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
